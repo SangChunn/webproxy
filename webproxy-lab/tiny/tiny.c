@@ -60,7 +60,9 @@ void doit(int fd){
   rio_t rio;
 
   Rio_readinitb(&rio, fd);
-  Rio_readlineb(&rio, buf, MAXLINE);
+  if (!rio_readlineb(&rio, buf, MAXLINE)) { 
+        return;
+    }
 
   fprintf(logfile, "[LOG] Request line: %s", buf);
   fflush(logfile);
@@ -173,8 +175,8 @@ int parse_uri(char *uri, char *filename, char *cgiargs){
 
 void serve_static(int fd, char *filename, int filesize){
   int srcfd;
-  char *srcp, filetype[MAXLINE], buf[MAXLINE];
-
+  char *srcbuf, filetype[MAXLINE], buf[MAXLINE];
+  rio_t rio;
   get_filetype(filename, filetype);
 
   sprintf(buf, "HTTP/1.0 200 OK\r\n");
@@ -185,10 +187,21 @@ void serve_static(int fd, char *filename, int filesize){
   Rio_writen(fd, buf, strlen(buf));
 
   srcfd = Open(filename,O_RDONLY, 0);
-  srcp = Mmap(0, filesize, PROT_READ, MAP_PRIVATE, srcfd, 0);
-  Close(srcfd);
-  Rio_writen(fd, srcp, filesize);
-  Munmap(srcp, filesize);
+  if (srcfd < 0){
+    printf("Error open\n");
+    return;
+  }
+  srcbuf = (char *)malloc(filesize);
+  if (srcbuf == NULL){
+    printf("Error malloc\n");
+    close(srcfd);
+    return;
+  }
+  rio_readinitb(&rio, srcfd);
+  rio_readn(srcfd, srcbuf, filesize);
+  rio_writen(fd, srcbuf, filesize);
+  free(srcbuf);
+  close(srcfd);
 }
 
 void get_filetype(char *filename, char *filetype){
