@@ -10,3 +10,53 @@
 [LOG] Method = GET, URI = /favicon.ico, Version = HTTP/1.1
 [LOG] Static content. filename = ./favicon.ico
 [ERROR] File not found: ./favicon.ico
+[LOG] Request line: [LOG] Method = , URI = , Version = 
+[ERROR] Unsupported method: 
+[LOG] Request line: GET / HTTP/1.1
+[LOG] Method = GET, URI = /, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (120 bytes)
+[LOG] Request line: GET /godzilla.gif HTTP/1.1
+[LOG] Method = GET, URI = /godzilla.gif, Version = HTTP/1.1
+[LOG] Static content. filename = ./godzilla.gif
+[LOG] Serving static file: ./godzilla.gif (12155 bytes)
+[LOG] Request line: GET /favicon.ico HTTP/1.1
+[LOG] Method = GET, URI = /favicon.ico, Version = HTTP/1.1
+[LOG] Static content. filename = ./favicon.ico
+[ERROR] File not found: ./favicon.ico
+[LOG] Request line: GET / HTTP/1.0
+[LOG] Method = GET, URI = /, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (120 bytes)
+[LOG] Request line: GET /index.html HTTP/1.1
+[LOG] Method = GET, URI = /index.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./index.html
+[ERROR] File not found: ./index.html
+[LOG] Request line: GET /favicon.ico HTTP/1.1
+[LOG] Method = GET, URI = /favicon.ico, Version = HTTP/1.1
+[LOG] Static content. filename = ./favicon.ico
+[ERROR] File not found: ./favicon.ico
+[LOG] Request line: GET /hoem.html HTTP/1.1
+[LOG] Method = GET, URI = /hoem.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./hoem.html
+[ERROR] File not found: ./hoem.html
+[LOG] Request line: GET /favicon.ico HTTP/1.1
+[LOG] Method = GET, URI = /favicon.ico, Version = HTTP/1.1
+[LOG] Static content. filename = ./favicon.ico
+[ERROR] File not found: ./favicon.ico
+[LOG] Request line: GET /home.html HTTP/1.1
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (120 bytes)
+[LOG] Request line: GET /godzilla.gif HTTP/1.1
+[LOG] Method = GET, URI = /godzilla.gif, Version = HTTP/1.1
+[LOG] Static content. filename = ./godzilla.gif
+[LOG] Serving static file: ./godzilla.gif (12155 bytes)
+[LOG] Request line: GET /favicon.ico HTTP/1.1
+[LOG] Method = GET, URI = /favicon.ico, Version = HTTP/1.1
+[LOG] Static content. filename = ./favicon.ico
+[ERROR] File not found: ./favicon.ico
+[LOG] Request line: GET / HTTP/1.1
+[LOG] Method = GET, URI = /, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (120 bytes)
