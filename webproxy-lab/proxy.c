@@ -8,6 +8,7 @@
 void doit(int connfd);
 void parse_uri(char *uri, char *hostname, char *path, char *port);
 void build_http_header(char *http_header, char *hostname, char *path, rio_t *client_rio);
+void *thread(void *vargp);
 
 /* You won't lose style points for including this long line in your code */
 static const char *user_agent_hdr =
@@ -30,14 +31,23 @@ int main(int argc, char **argv)
   listenfd = Open_listenfd(argv[1]);
    
   while(1){
+    int *connfdp = malloc(sizeof(int));
     clientlen = sizeof(clientaddr);
-    connfd = Accept(listenfd, (SA *)&clientaddr, &clientlen);
-    Getnameinfo((SA *)&clientaddr, clientlen, hostname, MAXLINE, port, MAXLINE, 0);
-    printf("Connected (%s, %s)\n", hostname, port);
-    doit(connfd);
-    Close(connfd);
+    *connfdp = Accept(listenfd, (SA *)&clientaddr, &clientlen);
+
+    pthread_t tid;
+    pthread_create(&tid,NULL, thread, connfdp);
   }
   return 0;
+}
+
+void *thread(void *vargp){
+  int connfd = *(int *)vargp;
+  Pthread_detach(pthread_self());
+  free(vargp);
+  doit(connfd);
+  Close(connfd);
+  return NULL;
 }
 
 void doit(int connfd){
@@ -48,11 +58,9 @@ void doit(int connfd){
   Rio_readinitb(&client_rio, connfd);
   if (!Rio_readlineb(&client_rio, buf, MAXLINE))
     return;
-  printf("Request: %s", buf);
 
   sscanf(buf, "%s %s %s", method, uri, version);
   if (strcasecmp(method, "GET")) {
-    printf("Proxy only supports GET method\n");
     return;
   }    
 
@@ -76,6 +84,7 @@ void doit(int connfd){
   }
 
   Close(serverfd);
+
 }
 
 void parse_uri(char *uri, char *hostname, char *path, char *port) {
@@ -106,7 +115,7 @@ void parse_uri(char *uri, char *hostname, char *path, char *port) {
 }
 
 void build_http_header(char *http_header, char *hostname, char *path, rio_t *client_rio) {
-    char buf[MAXLINE], header[MAXLINE], other_hdr[MAXLINE] = "";
+    char buf[MAXLINE], other_hdr[MAXLINE] = "";
     char host_hdr[MAXLINE] = "";
     char request_line[MAXLINE];
 
