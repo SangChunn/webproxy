@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Tiny Server</title>
+</head>
+<body>
+    <h1>Welcome to Tiny Web Server!</h1>
+    <p>This is the default <b>home.html</b> page.</p>
+
+    <!-- 이미지가 있다면 보여주기 -->
+    <img src="godzilla.gif" alt="Godzilla" width="200"><br><br>
+
+    <hr>
+
+    <!-- CGI-Adder를 위한 Form -->
+    <h2>Add Two Numbers</h2>
+    <form action="/cgi-bin/adder" method="GET">
+        <label>Number 1: </label>
+        <input type="text" name="num1">
+        <br>
+        <label>Number 2: </label>
+        <input type="text" name="num2">
+        <br><br>
+        <input type="submit" value="Calculate">
+    </form>
+
+    <hr>
+    <p>Try entering two numbers and clicking 'Calculate'</p>
+</body>
+</html>
