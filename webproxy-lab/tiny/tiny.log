@@ -314,3 +314,603 @@
 [LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.0
 [LOG] Static content. filename = ./csapp.c
 [LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /home.html HTTP/1.1
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.0
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.1
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.1
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.0
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.1
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.1
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /godzilla.jpg HTTP/1.0
+[LOG] Method = GET, URI = /godzilla.jpg, Version = HTTP/1.0
+[LOG] Static content. filename = ./godzilla.jpg
+[LOG] Serving static file: ./godzilla.jpg (10858 bytes)
+[LOG] Request line: GET /godzilla.jpg HTTP/1.1
+[LOG] Method = GET, URI = /godzilla.jpg, Version = HTTP/1.1
+[LOG] Static content. filename = ./godzilla.jpg
+[LOG] Serving static file: ./godzilla.jpg (10858 bytes)
+[LOG] Request line: GET /tiny HTTP/1.0
+[LOG] Method = GET, URI = /tiny, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny
+[LOG] Serving static file: ./tiny (104240 bytes)
+[LOG] Request line: GET /tiny HTTP/1.1
+[LOG] Method = GET, URI = /tiny, Version = HTTP/1.1
+[LOG] Static content. filename = ./tiny
+[LOG] Serving static file: ./tiny (104240 bytes)
+[LOG] Request line: GET /home.html HTTP/1.1
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.0
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.0
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /home.html HTTP/1.1
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.0
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.1
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.1
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.0
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.1
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.1
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /godzilla.jpg HTTP/1.0
+[LOG] Method = GET, URI = /godzilla.jpg, Version = HTTP/1.0
+[LOG] Static content. filename = ./godzilla.jpg
+[LOG] Serving static file: ./godzilla.jpg (10858 bytes)
+[LOG] Request line: GET /godzilla.jpg HTTP/1.1
+[LOG] Method = GET, URI = /godzilla.jpg, Version = HTTP/1.1
+[LOG] Static content. filename = ./godzilla.jpg
+[LOG] Serving static file: ./godzilla.jpg (10858 bytes)
+[LOG] Request line: GET /tiny HTTP/1.0
+[LOG] Method = GET, URI = /tiny, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny
+[LOG] Serving static file: ./tiny (104240 bytes)
+[LOG] Request line: GET /tiny HTTP/1.1
+[LOG] Method = GET, URI = /tiny, Version = HTTP/1.1
+[LOG] Static content. filename = ./tiny
+[LOG] Serving static file: ./tiny (104240 bytes)
+[LOG] Request line: GET /home.html HTTP/1.1
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.0
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.0
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /home.html HTTP/1.1
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.0
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.1
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.1
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.0
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.1
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.1
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /godzilla.jpg HTTP/1.0
+[LOG] Method = GET, URI = /godzilla.jpg, Version = HTTP/1.0
+[LOG] Static content. filename = ./godzilla.jpg
+[LOG] Serving static file: ./godzilla.jpg (10858 bytes)
+[LOG] Request line: GET /godzilla.jpg HTTP/1.1
+[LOG] Method = GET, URI = /godzilla.jpg, Version = HTTP/1.1
+[LOG] Static content. filename = ./godzilla.jpg
+[LOG] Serving static file: ./godzilla.jpg (10858 bytes)
+[LOG] Request line: GET /tiny HTTP/1.0
+[LOG] Method = GET, URI = /tiny, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny
+[LOG] Serving static file: ./tiny (104240 bytes)
+[LOG] Request line: GET /tiny HTTP/1.1
+[LOG] Method = GET, URI = /tiny, Version = HTTP/1.1
+[LOG] Static content. filename = ./tiny
+[LOG] Serving static file: ./tiny (104240 bytes)
+[LOG] Request line: GET /home.html HTTP/1.1
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.0
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.0
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /home.html HTTP/1.1
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.0
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.1
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.1
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.0
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.1
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.1
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /godzilla.jpg HTTP/1.0
+[LOG] Method = GET, URI = /godzilla.jpg, Version = HTTP/1.0
+[LOG] Static content. filename = ./godzilla.jpg
+[LOG] Serving static file: ./godzilla.jpg (10858 bytes)
+[LOG] Request line: GET /godzilla.jpg HTTP/1.1
+[LOG] Method = GET, URI = /godzilla.jpg, Version = HTTP/1.1
+[LOG] Static content. filename = ./godzilla.jpg
+[LOG] Serving static file: ./godzilla.jpg (10858 bytes)
+[LOG] Request line: GET /tiny HTTP/1.0
+[LOG] Method = GET, URI = /tiny, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny
+[LOG] Serving static file: ./tiny (104240 bytes)
+[LOG] Request line: GET /tiny HTTP/1.1
+[LOG] Method = GET, URI = /tiny, Version = HTTP/1.1
+[LOG] Static content. filename = ./tiny
+[LOG] Serving static file: ./tiny (104240 bytes)
+[LOG] Request line: GET /home.html HTTP/1.1
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.0
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.0
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /home.html HTTP/1.1
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.0
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.1
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.1
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.0
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.1
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.1
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /godzilla.jpg HTTP/1.0
+[LOG] Method = GET, URI = /godzilla.jpg, Version = HTTP/1.0
+[LOG] Static content. filename = ./godzilla.jpg
+[LOG] Serving static file: ./godzilla.jpg (10858 bytes)
+[LOG] Request line: GET /godzilla.jpg HTTP/1.1
+[LOG] Method = GET, URI = /godzilla.jpg, Version = HTTP/1.1
+[LOG] Static content. filename = ./godzilla.jpg
+[LOG] Serving static file: ./godzilla.jpg (10858 bytes)
+[LOG] Request line: GET /tiny HTTP/1.0
+[LOG] Method = GET, URI = /tiny, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny
+[LOG] Serving static file: ./tiny (104240 bytes)
+[LOG] Request line: GET /tiny HTTP/1.1
+[LOG] Method = GET, URI = /tiny, Version = HTTP/1.1
+[LOG] Static content. filename = ./tiny
+[LOG] Serving static file: ./tiny (104240 bytes)
+[LOG] Request line: GET /home.html HTTP/1.1
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.0
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.0
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /home.html HTTP/1.1
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.0
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.1
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.1
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.0
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.1
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.1
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /godzilla.jpg HTTP/1.0
+[LOG] Method = GET, URI = /godzilla.jpg, Version = HTTP/1.0
+[LOG] Static content. filename = ./godzilla.jpg
+[LOG] Serving static file: ./godzilla.jpg (10858 bytes)
+[LOG] Request line: GET /godzilla.jpg HTTP/1.1
+[LOG] Method = GET, URI = /godzilla.jpg, Version = HTTP/1.1
+[LOG] Static content. filename = ./godzilla.jpg
+[LOG] Serving static file: ./godzilla.jpg (10858 bytes)
+[LOG] Request line: GET /tiny HTTP/1.0
+[LOG] Method = GET, URI = /tiny, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny
+[LOG] Serving static file: ./tiny (104240 bytes)
+[LOG] Request line: GET /tiny HTTP/1.1
+[LOG] Method = GET, URI = /tiny, Version = HTTP/1.1
+[LOG] Static content. filename = ./tiny
+[LOG] Serving static file: ./tiny (104240 bytes)
+[LOG] Request line: GET /home.html HTTP/1.1
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.0
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.0
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /home.html HTTP/1.1
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.0
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.1
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.1
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.0
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.1
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.1
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /godzilla.jpg HTTP/1.0
+[LOG] Method = GET, URI = /godzilla.jpg, Version = HTTP/1.0
+[LOG] Static content. filename = ./godzilla.jpg
+[LOG] Serving static file: ./godzilla.jpg (10858 bytes)
+[LOG] Request line: GET /godzilla.jpg HTTP/1.1
+[LOG] Method = GET, URI = /godzilla.jpg, Version = HTTP/1.1
+[LOG] Static content. filename = ./godzilla.jpg
+[LOG] Serving static file: ./godzilla.jpg (10858 bytes)
+[LOG] Request line: GET /tiny HTTP/1.0
+[LOG] Method = GET, URI = /tiny, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny
+[LOG] Serving static file: ./tiny (104240 bytes)
+[LOG] Request line: GET /tiny HTTP/1.1
+[LOG] Method = GET, URI = /tiny, Version = HTTP/1.1
+[LOG] Static content. filename = ./tiny
+[LOG] Serving static file: ./tiny (104240 bytes)
+[LOG] Request line: GET /home.html HTTP/1.1
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.0
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.0
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /home.html HTTP/1.1
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.0
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.1
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.1
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.0
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.1
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.1
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /godzilla.jpg HTTP/1.0
+[LOG] Method = GET, URI = /godzilla.jpg, Version = HTTP/1.0
+[LOG] Static content. filename = ./godzilla.jpg
+[LOG] Serving static file: ./godzilla.jpg (10858 bytes)
+[LOG] Request line: GET /godzilla.jpg HTTP/1.1
+[LOG] Method = GET, URI = /godzilla.jpg, Version = HTTP/1.1
+[LOG] Static content. filename = ./godzilla.jpg
+[LOG] Serving static file: ./godzilla.jpg (10858 bytes)
+[LOG] Request line: GET /tiny HTTP/1.0
+[LOG] Method = GET, URI = /tiny, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny
+[LOG] Serving static file: ./tiny (104240 bytes)
+[LOG] Request line: GET /tiny HTTP/1.1
+[LOG] Method = GET, URI = /tiny, Version = HTTP/1.1
+[LOG] Static content. filename = ./tiny
+[LOG] Serving static file: ./tiny (104240 bytes)
+[LOG] Request line: GET /home.html HTTP/1.1
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.0
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.0
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /home.html HTTP/1.1
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.0
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.1
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.1
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.0
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.1
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.1
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /godzilla.jpg HTTP/1.0
+[LOG] Method = GET, URI = /godzilla.jpg, Version = HTTP/1.0
+[LOG] Static content. filename = ./godzilla.jpg
+[LOG] Serving static file: ./godzilla.jpg (10858 bytes)
+[LOG] Request line: GET /godzilla.jpg HTTP/1.1
+[LOG] Method = GET, URI = /godzilla.jpg, Version = HTTP/1.1
+[LOG] Static content. filename = ./godzilla.jpg
+[LOG] Serving static file: ./godzilla.jpg (10858 bytes)
+[LOG] Request line: GET /tiny HTTP/1.0
+[LOG] Method = GET, URI = /tiny, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny
+[LOG] Serving static file: ./tiny (104240 bytes)
+[LOG] Request line: GET /tiny HTTP/1.1
+[LOG] Method = GET, URI = /tiny, Version = HTTP/1.1
+[LOG] Static content. filename = ./tiny
+[LOG] Serving static file: ./tiny (104240 bytes)
+[LOG] Request line: GET /home.html HTTP/1.1
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.0
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.0
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /home.html HTTP/1.1
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.0
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.1
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.1
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.0
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.1
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.1
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /godzilla.jpg HTTP/1.0
+[LOG] Method = GET, URI = /godzilla.jpg, Version = HTTP/1.0
+[LOG] Static content. filename = ./godzilla.jpg
+[LOG] Serving static file: ./godzilla.jpg (10858 bytes)
+[LOG] Request line: GET /godzilla.jpg HTTP/1.1
+[LOG] Method = GET, URI = /godzilla.jpg, Version = HTTP/1.1
+[LOG] Static content. filename = ./godzilla.jpg
+[LOG] Serving static file: ./godzilla.jpg (10858 bytes)
+[LOG] Request line: GET /tiny HTTP/1.0
+[LOG] Method = GET, URI = /tiny, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny
+[LOG] Serving static file: ./tiny (104240 bytes)
+[LOG] Request line: GET /tiny HTTP/1.1
+[LOG] Method = GET, URI = /tiny, Version = HTTP/1.1
+[LOG] Static content. filename = ./tiny
+[LOG] Serving static file: ./tiny (104240 bytes)
+[LOG] Request line: GET /home.html HTTP/1.1
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.1
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /tiny.c HTTP/1.0
+[LOG] Method = GET, URI = /tiny.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./tiny.c
+[LOG] Serving static file: ./tiny.c (6934 bytes)
+[LOG] Request line: GET /home.html HTTP/1.0
+[LOG] Method = GET, URI = /home.html, Version = HTTP/1.0
+[LOG] Static content. filename = ./home.html
+[LOG] Serving static file: ./home.html (746 bytes)
+[LOG] Request line: GET /csapp.c HTTP/1.0
+[LOG] Method = GET, URI = /csapp.c, Version = HTTP/1.0
+[LOG] Static content. filename = ./csapp.c
+[LOG] Serving static file: ./csapp.c (24035 bytes)
